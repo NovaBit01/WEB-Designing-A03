@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #4CAF50;
+        }
+        .types {
+            display: flex;
+            justify-content: space-between;
+        }
+        .type {
+            width: 30%;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .history {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        .history-item {
+            width: 30%;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+        }
+        #form {
+            background-color: #ffffff;
+            padding: 20px;
+           box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to our Car Website!</h1>
+    <p>Cars have been an essential part of our lives for over a century. They have revolutionized transportation and made it possible for us to travel long distances quickly and easily.</p>
+    <h2>Types of Cars</h2>
+    <div class="types">
+        <div class="type">
+            <h3>Sedans</h3>
+            <p>Sedans are four-door cars with a separate trunk. They are known for their comfort and reliability.</p>
+            <a href="sedans.html">Learn More</a>
+        </div>
+        <div class="type">
+            <h3>SUVs</h3>
+            <p>SUVs are large, powerful vehicles with four-wheel drive. They are popular for their versatility and off-road capabilities.</p>
+            <a href="suvs.html">Learn More</a>
+        </div>
+        <div class="type">
+            <h3>Sports Cars</h3>
+            <p>Sports cars are high-performance vehicles designed for speed and agility. They are often two-seaters and have a sleek, aerodynamic design.</p>
+            <a href="sports-cars.html">Learn More</a>
+        </div>
+    </div>
+    <h2>A Brief History of Cars</h2>
+    <div class="history">
+        <div class="history-item">
+            <h3>1886: The First Car</h3>
+            <p>The first car was invented by Karl Benz in 1886. It was called the Benz Patent-Motorwagen and had a top speed of 10 mph.</p>
+            <a href="history.html">Learn More</a>
+        </div>
+        <div class="history-item"><h3>1908: The Model T</h3>
+            <p>The Model T, produced by Ford, was the first car to be mass-produced. It was affordable and reliable, making it accessible to the average person.</p>
+            <a href="history.html">Learn More</a>
+        </div>
+        <div class="history-item">
+            <h3>1973: The Oil Crisis</h3>
+            <p>The Oil Crisis in the 1973 led to a shift in the car industry. Cars became more fuel-efficient and environmentally friendly.</p>
+            <a href="history.html">Learn More</a>
+        </div>
+    </div>
+    <h2>Enter Your Car Information</h2>
+    <div id="form">
+        <form>
+            <input type="text" placeholder="Car Name" required><br>
+            <input type="text" placeholder="Car Model" required><br>
+            <input type="text" placeholder="Fuel Type" required><br>
+            <input type="number" placeholder="Year of Manufacturing" required><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
